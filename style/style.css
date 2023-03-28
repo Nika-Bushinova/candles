@@ -264,7 +264,7 @@ font-weight: 800;
 .button__all:active {
    box-shadow: 0 0 20px 0 #20640C inset, 0 0 30px 10px #20640C;
 }
-.header__button a:visited {
+.header__button a:visited, .button__all a:visited{
    color: white !important
 }
 .header__button {
