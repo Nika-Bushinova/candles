@@ -593,7 +593,7 @@ footer ul{
     left:35%
 }
 .preview__common h1 + p {
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .stories__first p, .stories__second p {
@@ -627,7 +627,7 @@ footer ul{
     left:20%
 }
 .preview__common h1{
-  font-size: 20px;
+  font-size: 21px;
 }
 .stories__first p, .stories__second p {
   font-size: 10px;
