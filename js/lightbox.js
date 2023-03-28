@@ -496,7 +496,7 @@
 
     if (this.album.length > 1 && this.options.showImageNumberLabel) {
       var labelText = this.imageCountLabel(this.currentImageIndex + 1, this.album.length);
-      this.$lightbox.find('.lb-number').text(labelText).fadeIn('fast');
+      this.$lightbox.find('.lb-number').fadeIn('fast');
     } else {
       this.$lightbox.find('.lb-number').hide();
     }

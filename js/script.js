@@ -29,7 +29,7 @@ $(document).ready(function() {
       $('.header__burger,.header__menu').removeClass('_active');
    })
 })
-
+/*
 $(document).ready(function() {
    $('.first-button').click(function(event){
       $('.pop-up').toggleClass('_active-pop');
@@ -45,4 +45,4 @@ $(document).ready(function() {
       $('.pop-up').removeClass('_active-pop');
    })
 })
-
+*/
