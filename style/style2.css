@@ -38,6 +38,9 @@
     background-size: 20px;
     background-position: 12px 50%;
   }
+  .header__logo::before{
+    left:40px
+  }
   .menu {
     padding-left: 15px;
   }
@@ -446,7 +449,7 @@ object-fit: cover;
     }
     .menu__item:not(:last-child) {
       margin-right: 0px;
-      margin-bottom: 25px;
+      margin-bottom: 30px;
   }
     .menu__item:nth-child(5),
     .menu__item:nth-child(6) {
@@ -539,9 +542,11 @@ h2{
   .slider .slick-dots{
     padding-bottom:30px
   }
+
   .destinations2 ul{
     padding-bottom:130px !important
   }
+
 /*---------------------------------------*/
 .footer__contacts{
   flex-direction: column;
