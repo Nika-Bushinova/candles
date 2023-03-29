@@ -31,6 +31,9 @@
     max-height: 250px;
     min-height: 200px;
   }
+  .textarea__ask{
+    width:80%
+  }
 }
 /*-------------------------------------------------------------------------------------------------1250----------------------------------------*/
 @media (max-width: 1250px) {
@@ -461,9 +464,7 @@ h2{
 }
 
 
-.textarea__ask{
-  width:80%
-}
+
 .slider__text, .slider__text span{
   font-size:12px
 }
