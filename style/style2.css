@@ -456,6 +456,14 @@ h2{
 .info__img {
  display: none;
 }
+.info__form{
+  margin-left:0%
+}
+
+
+.textarea__ask{
+  width:80%
+}
 .slider__text, .slider__text span{
   font-size:12px
 }
@@ -575,12 +583,6 @@ footer ul{
   margin:10px 0px
 }
 
-.info__form{
-  margin-left:0%
-}
-.textarea__ask{
-  width:80%
-}
 
 }
 
