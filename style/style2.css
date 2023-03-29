@@ -39,7 +39,11 @@
     background-position: 12px 50%;
   }
   .header__logo::before{
-    left:40px
+    left:40px;
+    width:20px;
+    height:20px;
+    background: url(../img/butter.png)no-repeat 0 0/ 20px 20px;
+    top:-10px
   }
   .menu {
     padding-left: 15px;
@@ -86,6 +90,8 @@ object-fit: cover;
  .footer__text{
   display:none
  }
+ .footer__logo::before{
+  left:45%;}
 }
 
 /*-----------------------------------------------------------------------------------------------------970----------------------------------------*/
@@ -153,53 +159,7 @@ object-fit: cover;
     font-size:14px
   }
 }
-  /*------------------------------------
-  .stories__image {
-    height: 200px;
-    width: 320px;
-    min-height: 200px;
-    min-width: 320px;
-  }
 
-  .stories__stories {
-    padding: 12px 0px;
-  }
-
-  h3 {
-    padding-top: 5px;
-    font-size: 18px;
-  }
-
-  .stories__item p {
-    font-size: 15px;
-    line-height: 19.5px;
-    padding-top: 10px;
-  }
-  .stories__item a {
-    font-size: 9px;
-    line-height: 11px;
-  }
-  .stories__text-text {
-    padding: 0px 0px 20px 13px;
-  }
-
-  .footer__text {
-    display: none;
-  }
-  .slider img {
-    width: 800px;
-    height: 700px;
-  }
-  .slider__text {
-    padding-left: 0.35%;
-  }
-
-  /*--------------------------------
-  .button__all {
-    background-size: 16px;
-    background-position: 8px 50%;
-  }
-}
 /*--------------------------------------------------767----------------------------------------*/
 @media (max-width: 767px) {
   .header__logo {
@@ -332,7 +292,7 @@ h4{
  
    .header__burger {
       display: block;
-      width: 26px;
+      width: 35px;
       height: 15px;
       position: relative;
       top: 0px;
@@ -535,7 +495,13 @@ h2{
   max-width: 100%;
 }
 .footer__logo::before{
-  margin-left:-30px
+  margin-left:-30px;
+  left:48%;
+    width:20px;
+    height:20px;
+    background: url(../img/butter.png)no-repeat 0 0/ 20px 20px;
+top:-30px
+  
 }
 
 footer ul{
@@ -561,7 +527,7 @@ footer ul{
   }
 
   .header__logo {
-    margin-left: 16px;
+    margin-left: 19px;
   }
   ._active-pop{
     width:280px;
@@ -638,387 +604,5 @@ footer ul{
 .footer__icons li{
   font-size: 10px;
 }
-}
-  /*------------------------------------бургер-------------------------------
-  .header__burger {
-    display: block;
-    width: 26px;
-    height: 15px;
-    position: relative;
-    top: 27px;
-    margin-left: 83%;
-    cursor: pointer;
-    z-index: 3;
-  }
-  .header__burger:before,
-  .header__burger:after {
-    background-color: white;
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 2px;
-  }
-  .header__burger:before {
-    bottom: 0;
-  }
-  .header__burger span {
-    background-color: white;
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    top: 6px;
-  }
-
-  .header__close::before {
-    background-color: white;
-    position: absolute;
-    content: "";
-    width: 21px;
-    height: 2px;
-    top: 20px;
-    left: 14px;
-    transform: rotate(45deg);
-    z-index: 20;
-  }
-  .header__close::after {
-    background-color: white;
-    position: absolute;
-    content: "";
-    width: 21px;
-    height: 2px;
-    top: 20px;
-    left: 14px;
-    transform: rotate(-45deg);
-    z-index: 20;
-  }
-
-  .header__menu {
-    z-index: 15;
-    width: 42.31%;
-    min-height: 250px;
-    background-color: rgba(242, 120, 92, 1);
-    transition: all 1s ease 0s;
-    left: -100%;
-    overflow: auto;
-    margin-top: 0px;
-    position: absolute;
-    font-size: 16px;
-    padding: 44px 15px 24px 11.2%;
-    top: 0;
-  }
-  .header__menu._active {
-    left: 57.69%;
-    top: 0;
-  }
-  .menu__list {
-    flex-direction: column;
-    text-align: right;
-  }
-  .menu__list > li {
-    margin: 0px 0px 10px 0px;
-  }
-  .menu__item:not(:last-child) {
-    margin-right: 0px;
-  }
-  .menu__item:nth-child(5),
-  .menu__item:nth-child(6) {
-    display: block;
-  }
-
-  .menu__item:nth-child(2),
-  .menu__item:nth-child(4) {
-    margin-top: 40px;
-  }
-  .menu__item:nth-child(3) {
-    margin-top: -60px;
-  }
-  .menu__item:last-child {
-    margin-top: 8px;
-  }
-  /*----------------------------------------------------------------------------------------------------
-
-  .preview__container {
-    background: url("../img/preview.jpg") 50% 100%/ 155% 100%;
-    min-height: 0px;
-    margin-top: -60px;
-  }
-  .preview__common {
-    padding: 141px 15px 61px 15px;
-  }
-
-  .preview__planning {
-    padding: 9px 9px 9px 16.5px;
-    min-height: 0px;
-    margin-top: 0px;
-  }
-
-  .preview__planning p {
-    font-size: 14px;
-    line-height: 17px;
-    padding-top: 8px;
-  }
-  .button__all {
-    font-size: 11px;
-    line-height: 15px;
-  }
-
-  h1,
-  h1 + p {
-    display: none;
-  }
-
-  .start-planning {
-    padding: 7.5px 9px;
-  }
-  /*---------------------------------------------------------------------------------------------------
-  .steps__first {
-    padding: 20px 15px 20px;
-  }
-  h2 {
-    font-size: 14px;
-    line-height: 19px;
-  }
-  .steps__icon img {
-    margin: 21px 0px 19px;
-    padding: 0px;
-    width: 70px;
-    height: 70px;
-  }
-
-  .steps__icon p {
-    font-size: 10px;
-    line-height: 12px;
-  }
-  .steps__icon:first-of-type {
-    text-align: left;
-  }
-  .steps__icon:last-of-type {
-    text-align: right;
-  }
-  .steps__icons div:nth-child(1) {
-    flex-basis: 100px;
-  }
-  .steps__icons div:nth-child(2) {
-    flex-basis: 150px;
-    margin-left: 12%;
-  }
-  /*------------------------------------------------------
-  .find-more {
-    background-size: 10px;
-    background-position: 12px 50%;
-    padding: 7.5px 12px 7.5px 28px;
-  }
-  .destinations__container {
-    padding-bottom: 20px;
-  }
-  /*---------------------------------------------------------------
-
-  .slider img {
-    width: 360px;
-    height: 210px;
-  }
-  .slick-dots {
-    margin-top: -30px;
-    z-index: 10;
-    position: absolute;
-    left: 45%;
-  }
-  .slick-track {
-    margin-top: -25px;
-    height: 265px;
-  }
-  .slider .slick-arrow {
-    position: absolute;
-    z-index: 2;
-    top: 50%;
-    font-size: 0;
-    width: 130px;
-    height: 100px;
-    margin-top: -70px;
-  }
-  .slick-arrow.slick-prev {
-    background: url(../img/arrow-left.svg) 20% 60px/30px no-repeat;
-  }
-  .slick-arrow.slick-next {
-    background: url(../img/arrow-right.svg) 80% 60px/30px no-repeat;
-  }
-
-  .slick-dots li {
-    width: 8px !important;
-    height: 8px !important;
-  }
-  .slider .slick-dots li:not(:last-child) {
-    margin-right: 7px;
-  }
-
-  .slider__text {
-    font-size: 20px;
-    padding-left: 1.8%;
-  }
-  /*---------------------------------------------------------------------------
-  .stories__stories {
-    padding: 12px 0px;
-  }
-
-  .stories__items {
-    padding: 8px 15px;
-  }
-  h3 {
-    padding-top: 5px;
-    font-size: 11px;
-    font-weight: bold;
-    line-height: 100%;
-  }
-
-  .stories__item p {
-    font-size: 9px;
-    line-height: 11px;
-    padding-top: 10px;
-  }
-  .stories__item a {
-    font-size: 9px;
-    line-height: 11px;
-  }
-  .stories__text-text {
-    padding: 0px 0px 20px 13px;
-  }
-  .one-s {
-    background-size: 100% 100%;
-  }
-  .two-s {
-    background-size: 100% 200%;
-  }
-  .three-s {
-    background-size: 100% 180%;
-  }
-
-  .four-s {
-    background-size: 120% 100%;
-    background-position: -20px;
-  }
-
-  .one-s,
-  .two-s,
-  .three-s,
-  .four-s {
-    min-width: 155px;
-    height: 130px;
-  }
-  .stories__text {
-    max-height: 115px;
-  }
-  /*----------------------------------------------------------
-  .see-button {
-    margin-top: 0px;
-  }
-  .see-more {
-    padding: 7.5px 13.5px 7.5px 29.5px;
-    background-size: 10px;
-    background-position: 12px;
-    margin-top: -10px;
-  }
-  /*----------------------------------------------------------------------------------------------------
-  .footer__contacts {
-    justify-content: center;
-    padding-top: 0px;
-  }
-  .footer__my-contacts,
-  .footer__rs,
-  .footer__text {
-    display: none;
-  }
-}
-/*-----------------------------------------------------------380-------------------------------------
-@media (max-width: 390px) {
-  .menu__list {
-    flex-direction: column;
-    text-align: left;
-  }
-  .header__menu {
-    padding-left: 10px;
-  }
-  /*-----------------------------------------------pop-----------------------------------------------
-
-  ._active-pop {
-    top: 70px;
-  }
-
-  ._active-pop {
-    width: 300px;
-    height: 450px;
-    border-radius: 2%;
-    padding: 25px 45px 23px 45px;
-  }
-  h4 {
-    font-size: 20px;
-  }
-  .pop-up__button {
-    padding: 5px 0px;
-    font-size: 15px;
-  }
-  .facebook {
-    margin: 15px 0px 10px 0px;
-  }
-  .facebook span::before {
-    height: 20px;
-    background: url("../img/facebook.svg") no-repeat 0 4px/ 15px 15px;
-  }
-  .google {
-    margin: 0px 0px 10px 0px;
-  }
-  .google span::before {
-    height: 20px;
-    margin-left: -25px;
-    background: url("../img/google.svg") no-repeat 0 5px/ 15px 15px;
-  }
-  hr + span {
-    font-size: 15px;
-  }
-  input {
-    height: 35px;
-  }
-  .pop-up__sign-in {
-    margin: 5px 0px 0px;
-    background: #0d606f;
-    color: #ffffff;
-  }
-  .pop-up a {
-    text-align: center;
-    display: block;
-    font-family: "Aleo";
-    font-size: 12px;
-    color: #0d606f;
-    margin-bottom: 6px;
-  }
-  .pop-up p {
-    margin: 0px 0px 10px;
-  }
-  .pop-up a > span {
-    font-weight: bold;
-    text-decoration: underline;
-  }
-  .pop-up__sign-in ~ hr {
-    width: 100%;
-    margin-bottom: 6px;
-  }
-  .pop-up__sign-in ~ span {
-    display: block;
-
-    margin: 0 auto;
-    width: 39.11%;
-  }
-  .pop-up__sign-in ~ span a {
-    display: inline;
-  }
-  .signIn {
-    margin-left: -20px;
-  }
-
-  hr {
-    width: 40%;
-  }
-  .pop-up__sign-in ~ span {
-    width: 90%;
-  }
 }
  
