@@ -9,8 +9,6 @@
 *,
 *:before,
 *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -457,7 +455,8 @@ h2:hover {
 .slider img {
   width: 300px;
   height: 300px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .slider__text {
@@ -812,8 +811,6 @@ h2:hover {
 }
 
 *, *:before, *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -1233,7 +1230,8 @@ h2:hover {
 .slider img {
   width: 300px;
   height: 300px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .slider__text {
   color: #1B2618;
@@ -1634,6 +1632,4 @@ footer a:first-of-type {
 .footer__contacts img:hover, .footer__my-contacts a:hover::before {
   transition: all 0.5s ease 0s;
   transform: scale(1.1);
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.text.css.map */
