@@ -794,6 +794,12 @@ h2:hover {
   background-color: #FFFFFF;
 }
 
+.insta, .insta2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
 /*--------------------------------------------------footer------------------------------------------------*/
 * {
   padding: 0;
