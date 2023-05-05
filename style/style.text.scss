@@ -774,6 +774,7 @@ background-color: #FFFFFF;
 	display: flex;
 	justify-content:space-around;
 	align-items: flex-start;
+	flex-wrap: wrap;
 }
 /*--------------------------------------------------footer------------------------------------------------*/
 
@@ -1365,6 +1366,7 @@ h2 {
 }
 .stories__first {
 	display: flex;
+	flex-wrap:wrap;
 	justify-content: space-between;
 	position: relative;
 	margin-bottom: 40px;
@@ -1402,6 +1404,7 @@ h2 {
 .stories__second {
 	position: relative;
 	display: flex;
+	flex-wrap:wrap;
 	justify-content: space-between;
 	margin-bottom: 40px;
 	align-items: flex-end;
