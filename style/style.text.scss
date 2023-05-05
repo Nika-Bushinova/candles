@@ -768,6 +768,12 @@ transition: all .2s ease-in-out;
 .slider__container{
    padding:90px 10% 90px 10%;
 background-color: #FFFFFF;
+
+}
+.insta, .insta2{
+	display: flex;
+	justify-content:space-around;
+	align-items: flex-start;
 }
 /*--------------------------------------------------footer------------------------------------------------*/
 
@@ -928,6 +934,7 @@ body {
 	background: url('../img/logo2.png') no-repeat 10px 0px /132px 132px;
 	margin: 30px 0px 0px -40px;
 	transition: all 0.5s ease 0s;
+
 }
 .header__menu {
 	margin: 0 auto;
