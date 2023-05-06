@@ -163,7 +163,7 @@ object-fit: cover;
   .stories__first ul, .stories__second ul, .stories__first li, .stories__second li{
     margin-top:5px
   }
-  .info__text{
+  .info__text,.destinations__text{
     font-size:14px
   }
 }
@@ -484,7 +484,7 @@ h2{
   font-size:12px
 }
 .destinations__container{
-  padding:20px 10% 90px 10%
+  padding:20px 10% 30px 10%
 }
 .stories__container{
   padding:0px 10% 0px
@@ -613,10 +613,10 @@ footer a:first-of-type {
 }
 .footer__logo::before {
   top:0px;
-  margin-top:10px
+  margin-top:10px;
+  margin-left:-40px
 }
 
-}
 
 
 /*-----------------------------------------------------------------------------------------------340-------------------------------------------*/
