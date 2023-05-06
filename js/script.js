@@ -13,7 +13,7 @@ $(document).ready(function(){
       pauseOnDotsHover:true,
       pauseOnFocus:true,
       waitForAnimate:false,
-      centerMode:true,
+      centerMode:false,
       variableWidth:true
    })
 });
