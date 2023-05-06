@@ -83,7 +83,11 @@ object-fit: cover;
     width:300px
   }
   .delivery{
-    display:block
+    display:block;
+
+      font-family: 'Comfortaa';
+      font-size: 12px;
+  
  }
  .footer__logo span+ p{
   display:none
@@ -238,6 +242,9 @@ h4{
   padding:20px;
 
 }
+.logo{
+  font-size:18px
+}
 .candle4{
   display:none
 }
@@ -363,7 +370,7 @@ h4{
       font-size: 16px;
       padding: 44px 30px 24px 10%;
       top: 0;
-      box-shadow: 0px 0px 5px 1px #20640C;
+
     }
     .header__menu._active {
       left: 57.69%;
@@ -413,7 +420,7 @@ h4{
    font-size: 12px;
 }
   .preview__common h1 {
-   font-size: 25px;
+   font-size: 30px;
    line-height: 46px;
  }
  .preview__planning{
@@ -441,7 +448,7 @@ h4{
   font-size:12px
 }
 h2{
-  font-size:26px
+  font-size:30px
 }
 .subscribe__email{
   padding:0px 10%;
@@ -477,7 +484,7 @@ h2{
   font-size:12px
 }
 .destinations__container{
-  padding:20px 10% 20px 10%
+  padding:20px 10% 90px 10%
 }
 .stories__container{
   padding:0px 10% 0px
@@ -497,21 +504,31 @@ h2{
 .footer_container{
   padding-top:20px
 }
+
 .footer__contacts{
   flex-direction: column;
+  padding: 0px;
 }
-.header__logo, .footer__logo{
+.header__logo, .footer__logo,.logo{
   font-size:16px;
   max-width: 100%;
 }
 .footer__logo::before{
   margin-left:-30px;
   left:48%;
-    width:20px;
-    height:20px;
-    background: url(../img/butter.png)no-repeat 0 0/ 20px 20px;
+    width:100px;
+    height:100px;
+    background:  url('../img/logo2.png')no-repeat 0 0/ 100px 100px ;
+
 top:-30px
   
+}
+.footer__logo p, .footer__my-contacts, .footer__my-contacts a {
+	font-family: 'Comfortaa';
+	font-size: 16px;
+	Line-height: 21px;
+	padding-top: 80px;
+	position: relative;
 }
 
 footer ul{
@@ -521,6 +538,9 @@ footer ul{
 .delivery span:first-of-type{
   font-weight: bold;
 }
+footer a:first-of-type {
+  padding-left: 30%;
+}
 }
 /* /*----------------------------------------------------390------------------------------------------*/
 @media (max-width: 390px) {
@@ -528,11 +548,7 @@ footer ul{
     font-size:14px
   }
   .header__container {
-    background: linear-gradient(
-      to bottom,
-      rgba(13, 96, 111, 0.9),
-      rgba(40, 140, 255, 0)
-    );
+
     box-shadow: 0px 0px;
   }
 
@@ -557,7 +573,7 @@ footer ul{
   padding:180px 5% 60px 5%
  }
   .preview__common h1 {
-    font-size: 23px;
+    font-size: 30px;
     line-height: 32px;
   }
 
@@ -585,7 +601,20 @@ footer ul{
   margin:10px 0px;
 
 }
-
+.footer_container{
+  padding: 0px 2% 10px 2%;
+}
+.delivery{
+  font-family: 'Comfortaa';
+  font-size: 12px;
+}
+.footer__logo div:first-child{
+  padding-top:20px
+}
+.footer__logo::before {
+  top:0px;
+  margin-top:10px
+}
 
 }
 
@@ -608,6 +637,11 @@ footer ul{
 }
 .footer__icons li{
   font-size: 10px;
+padding-right:5px;
+padding-left:5px
+}
+.footer__icons{
+
 }
 }
  
