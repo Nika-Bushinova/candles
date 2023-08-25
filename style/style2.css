@@ -16,7 +16,7 @@
   .preview__container{
    min-height: 700px
 }
-  .preview__common h1 {
+  h1 {
     font-size: 50px;
   }
   .preview__common h1 + p {
@@ -85,7 +85,7 @@ object-fit: cover;
   .delivery{
     display:block;
 
-      font-family: 'Comfortaa';
+      font-family: 'Inter';
       font-size: 12px;
   
  }
@@ -136,7 +136,7 @@ object-fit: cover;
 .preview__container{
    min-height: 400px
 }
-  .preview__common h1 {
+ h1 {
     font-size: 40px;
   }
   .preview__common h1 + p {
@@ -198,7 +198,7 @@ object-fit: cover;
    margin-right: 0px;
 }
 
-.preview__common h1, h2 {
+ h1, .preview__common h2 {
    font-size: 30px;
    line-height: 66px;
  }
@@ -307,10 +307,10 @@ h4{
       height: 15px;
       position: relative;
       top: 0px;
-      margin-left:15%;
+      margin-left:10%;
       cursor: pointer;
       z-index: 3;
-      margin-right:15%
+      margin-right:40%
     }
     .header__burger:before,
     .header__burger:after {
@@ -419,7 +419,7 @@ h4{
 .preview__common h1 + p{
    font-size: 12px;
 }
-  .preview__common h1 {
+ h1 {
    font-size: 30px;
    line-height: 46px;
  }
@@ -470,8 +470,12 @@ h2{
 .info__form{
   margin-left:0%
 }
-
-
+.info__form .email::after{
+  display:none
+}
+.info__form .phone::after{
+  display:none
+}
 
 .slider__text, .slider__text span{
   font-size:12px
@@ -484,7 +488,7 @@ h2{
   font-size:12px
 }
 .destinations__container{
-  padding:20px 10% 30px 10%
+  padding:20px 10% 60px 10%
 }
 .stories__container{
   padding:0px 10% 0px
@@ -524,7 +528,7 @@ top:-30px
   
 }
 .footer__logo p, .footer__my-contacts, .footer__my-contacts a {
-	font-family: 'Comfortaa';
+	font-family: 'Inter';
 	font-size: 16px;
 	Line-height: 21px;
 	padding-top: 80px;
@@ -541,6 +545,11 @@ footer ul{
 footer a:first-of-type {
   padding-left: 30%;
 }
+.main__thank_you{
+	min-height: 300px;
+
+padding:50px 0px
+}
 }
 /* /*----------------------------------------------------390------------------------------------------*/
 @media (max-width: 390px) {
@@ -554,6 +563,18 @@ footer a:first-of-type {
 
   .header__logo {
     margin-left: 19px;
+  }
+  
+  .header__burger {
+    display: block;
+    width: 35px;
+    height: 15px;
+    position: relative;
+    top: 0px;
+    margin-left:10%;
+    cursor: pointer;
+    z-index: 3;
+    margin-right:30%
   }
   ._active-pop{
     width:280px;
@@ -572,7 +593,7 @@ footer a:first-of-type {
  .preview__container{
   padding:180px 5% 60px 5%
  }
-  .preview__common h1 {
+ h1 {
     font-size: 30px;
     line-height: 32px;
   }
@@ -594,18 +615,17 @@ footer a:first-of-type {
 .stories__first ul, .stories__second ul, .stories__first li, .stories__second li{
   font-size:10px
 }
-.info__text{
-  font-size:12px
-}
-.textarea__ask{
-  margin:10px 0px;
 
+.info__text{
+  font-size:12px;
+  padding: 20px 0px 20px 0px
 }
+
 .footer_container{
   padding: 0px 2% 10px 2%;
 }
 .delivery{
-  font-family: 'Comfortaa';
+  font-family: 'Inter';
   font-size: 12px;
 }
 .footer__logo div:first-child{
@@ -616,7 +636,7 @@ footer a:first-of-type {
   margin-top:10px;
   margin-left:-40px
 }
-
+}
 
 
 /*-----------------------------------------------------------------------------------------------340-------------------------------------------*/
@@ -626,7 +646,7 @@ footer a:first-of-type {
     margin-top: -70px;
     left:20%
 }
-.preview__common h1{
+ h1{
   font-size: 21px;
 }
 .stories__first p, .stories__second p {

@@ -41,7 +41,7 @@ body {
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   color: #1B2618;
-  font-family: "Inter";
+  font-family: "Comfortaa";
   font-weight: 500;
   font-size: 24px;
 }
@@ -108,7 +108,7 @@ img {
 
 p + span {
   color: gray;
-  font-family: "Inter";
+  font-family: "Comfortaa";
   font-weight: 500;
   font-size: 18px;
   margin-top: 10px;
@@ -204,7 +204,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   padding: 0px;
-  font-family: "Inter";
+  font-family: "Comfortaa";
 }
 
 .menu__item:not(:last-child) {
@@ -240,7 +240,7 @@ body {
   border: 0px;
   border-radius: 10px;
   font-size: 16px;
-  font-family: "Inter";
+  font-family: "Comfortaa";
   padding: 10px 30px;
   text-transform: capitalize;
   transition: color 1s, background-color 1s, box-shadow 0.2s;
@@ -282,6 +282,13 @@ body {
   padding: 150px 10% 190px 10%;
 }
 
+.preview__common {
+  position: relative;
+  z-index: 1;
+  top: -140px;
+  border-radius: 16px;
+}
+
 .preview__second {
   position: absolute;
   left: 40%;
@@ -289,7 +296,8 @@ body {
 }
 
 .preview__common h1 + p {
-  font-family: "Inter";
+  font-family: "Comfortaa";
+  font-weight: 700;
   font-size: 20px;
   line-height: 24px;
   color: #1B2618;
@@ -297,7 +305,7 @@ body {
   transition: all 0.3s;
 }
 
-h1:hover, .preview__common h1 + p:hover {
+.preview__common h1:hover, .preview__common h1 + p:hover {
   color: #DB7093;
   text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5);
 }
@@ -375,7 +383,7 @@ h1:hover, .preview__common h1 + p:hover {
 }
 
 h2 {
-  font-family: "Marck script";
+  font-family: "Marck+Script&display";
   font-style: normal;
   font-weight: 500;
   font-size: 40px;
@@ -405,7 +413,7 @@ h2:hover {
 }
 
 .steps__icon p {
-  font-family: "Inter";
+  font-family: "Comfortaa";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -437,7 +445,7 @@ h2:hover {
 
 .slider__text {
   color: #1B2618;
-  font-family: "Inter";
+  font-family: "Comfortaa";
   font-weight: 500;
   font-size: 24px;
   margin-top: 10px;
@@ -445,7 +453,7 @@ h2:hover {
 
 .slider__text span {
   color: gray;
-  font-family: "Inter";
+  font-family: "Comfortaa";
   font-weight: 500;
   font-size: 18px;
   margin-top: 10px;
@@ -605,7 +613,7 @@ h2:hover {
 
 .stories__first ul, .stories__second ul, .stories__first li, .stories__second li {
   color: gray;
-  font-family: "Inter";
+  font-family: "Comfortaa";
   font-weight: 500;
   font-size: 18px;
   margin-top: 10px;
@@ -759,7 +767,7 @@ h2:hover {
   display: flex;
   padding: 0px 0px 40px;
   color: #1B2618;
-  font-family: "Inter";
+  font-family: "Comfortaa";
   font-weight: 500;
   margin-top: 10px;
   font-size: 20px;
@@ -813,7 +821,7 @@ html, body {
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   color: #1B2618;
-  font-family: "Inter";
+  font-family: "Comfortaa";
   font-weight: 500;
   font-size: 24px;
 }
@@ -876,7 +884,7 @@ img {
 
 p + span {
   color: gray;
-  font-family: "Inter";
+  font-family: "Comfortaa";
   font-weight: 500;
   font-size: 18px;
   margin-top: 10px;
@@ -975,7 +983,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   padding: 0px;
-  font-family: "Inter";
+  font-family: "Comfortaa";
 }
 
 .menu__item:not(:last-child) {
@@ -1008,7 +1016,7 @@ body {
   color: white;
   border: 0px;
   font-size: 16px;
-  font-family: "Inter";
+  font-family: "Comfortaa";
   padding: 10px 30px;
   text-transform: capitalize;
   transition: color 1s, background-color 1s, box-shadow 0.2s;
@@ -1037,8 +1045,14 @@ body {
   box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.2);
 }
 
-h1 {
-  font-family: "Marck script";
+.preview__container {
+  display: flex;
+  min-height: 765px;
+  background-color: #FFFFFF;
+  padding: 150px 10% 190px 10%;
+}
+.preview__container h1 {
+  font-family: "Marck+Script&display";
   font-style: normal;
   font-weight: 300;
   font-size: 80px;
@@ -1048,13 +1062,6 @@ h1 {
   text-shadow: 0px 4px 3px #FFC0CB;
 }
 
-.preview__container {
-  display: flex;
-  min-height: 765px;
-  background-color: #FFFFFF;
-  padding: 150px 10% 190px 10%;
-}
-
 .preview__common {
   position: relative;
   z-index: 1;
@@ -1062,12 +1069,17 @@ h1 {
   border-radius: 16px;
 }
 .preview__common h1 + p {
-  font-family: "Inter";
+  font-family: "Comfortaa";
+  font-weight: 700;
   font-size: 20px;
   line-height: 24px;
   color: #1B2618;
   margin-top: 0px;
   transition: all 0.3s;
+}
+.preview__common h1:hover, .preview__common h1 + p:hover {
+  color: #DB7093;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5);
 }
 
 .preview__second {
@@ -1156,7 +1168,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Marck script";
+  font-family: "Marck Script";
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
@@ -1183,7 +1195,7 @@ h2:hover {
   filter: drop-shadow(0px 4px 3px rgba(0, 0, 0, 0.5));
 }
 .steps__icon p {
-  font-family: "Inter";
+  font-family: "Comfortaa";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -1224,14 +1236,14 @@ h2:hover {
 }
 .slider__text {
   color: #1B2618;
-  font-family: "Inter";
+  font-family: "Comfortaa";
   font-weight: 500;
   font-size: 24px;
   margin-top: 10px;
 }
 .slider__text span {
   color: gray;
-  font-family: "Inter";
+  font-family: "Comfortaa";
   font-weight: 500;
   font-size: 18px;
   margin-top: 10px;
@@ -1415,7 +1427,7 @@ h2:hover {
   display: flex;
   padding: 40px 40px 40px 10px;
   color: #1B2618;
-  font-family: "Inter";
+  font-family: "Comfortaa";
   font-weight: 500;
   margin-top: 10px;
   font-size: 20px;
@@ -1459,7 +1471,7 @@ h2:hover {
 
 .stories__first ul, .stories__second ul, .stories__first li, .stories__second li {
   color: gray;
-  font-family: "Inter";
+  font-family: "Comfortaa";
   font-weight: 500;
   font-size: 18px;
   margin-top: 10px;
@@ -1521,7 +1533,7 @@ h2:hover {
   display: flex;
   padding: 0px 0px 40px;
   color: #1B2618;
-  font-family: "Inter";
+  font-family: "Comfortaa";
   font-weight: 500;
   margin-top: 10px;
   font-size: 20px;
@@ -1574,7 +1586,7 @@ footer a:first-of-type {
 }
 
 .footer__logo p, .footer__my-contacts, .footer__my-contacts a {
-  font-family: "Inter";
+  font-family: "Comfortaa";
   font-size: 16px;
   Line-height: 21px;
   padding-top: 68px;
@@ -1662,7 +1674,7 @@ footer a:first-of-type {
   width: 100%;
   font-size: 20px;
   line-height: 26px;
-  font-family: "Inter";
+  font-family: "Comfortaa";
 }
 
 .pop-up__button span {
@@ -1672,7 +1684,7 @@ footer a:first-of-type {
 .pop-up p {
   margin: 10px 0px 10px;
   color: #DB7093;
-  font-family: "Inter";
+  font-family: "Comfortaa";
   font-size: 23px;
   line-height: 19px;
 }
@@ -1692,7 +1704,7 @@ footer a:first-of-type {
 .pop-up a {
   text-align: center;
   display: block;
-  font-family: "Inter";
+  font-family: "Comfortaa";
   font-size: 15px;
   color: #DB7093;
   margin-bottom: 26px;
@@ -1722,7 +1734,7 @@ footer a:first-of-type {
 
 h4 {
   text-align: center;
-  font-family: "Inter";
+  font-family: "Comfortaa";
   font-style: bold;
   font-size: 32px;
   line-height: 38px;
@@ -1730,19 +1742,4 @@ h4 {
   color: #DB7093;
 }
 
-._req {
-  padding: 0px 10px;
-  font-size: 16px;
-}
-
-.main__thank_you {
-  min-height: 500px;
-  background-color: #FFFFFF;
-  padding: 100px 0px;
-}
-
-.main__thank_you_h1 {
-  text-align: center;
-}
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.cs.map */

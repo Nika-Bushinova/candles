@@ -29,12 +29,12 @@ $(document).ready(function() {
       $('.header__burger,.header__menu').removeClass('_active');
    })
 })
-/*
+
 $(document).ready(function() {
    $('.first-button').click(function(event){
       $('.pop-up').toggleClass('_active-pop');
       let signBlock=document.querySelector('._active-pop')
-      signBlock.style.height="360px"
+      signBlock.style.height="560px"
       signBlock.style.zIndex="10"
 
    })
@@ -45,4 +45,4 @@ $(document).ready(function() {
       $('.pop-up').removeClass('_active-pop');
    })
 })
-*/
+

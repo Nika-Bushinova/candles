@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/style2.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Golos+Text:wght@400;700&family=Marck+Script&display=swap"
+      rel="stylesheet"
+      />
+    <link rel="shortcut icon" href="img/butter.png" type="image/x-icon" />
+    <link href="style/css/lightbox.css" rel="stylesheet" />
+    <link href="style/css/lightbox.min.css" rel="stylesheet" />
+    <link
+      href="style/stylesheet/stylesheet.css"
+      rel="stylesheet"
+      type="text/css"
+      />
+    <title>Отправка формы на почту </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script>
+      $(function () {
+        $("#menu").load("menu.html");
+      });
+      $(function () {
+        $("#contacts").load("footer.html");
+      });
+      </script>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div id="menu"></div>
+      <main class="main__thank_you container">
+        <div class="main__thank_you_container ">
+          <div>
+            <h1 class="main__thank_you_h1">Спасибо за заявку, мы с Вами обязательно свяжемся!</h1>
+          </div>
+      </div>
+      </main>
+      <div id="contacts"></div>
+</div> 
+<section class="preview__pop-up pop-up">
+
+  <form name="test" method="POST" action="mail.php" id="form" class="form__body">
+    <h4>Пожалуйста заполните поля и мы с Вами свяжемся</h4>
+    <p>Ваше имя</p>
+    <input type="text" name="user_name" id="password" value="" class="_req">
+
+    <p>Ваш номер телефона с кодом оператора *</p>
+    <input type="text" name="user_phone" id="password" value="+375" class="_req">
+    <p>Ваш e-mail</p>
+    <input type="text" name="user_email" id="email" value="" class="_req">
+    <button class="pop-up__button pop-up__sign-in" type="submit">Отправить</button>
+  </form>
+</section>     
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/script.js"></script>
+<script src="js/index.js"></script>
+<script src="js/lightbox.js"></script>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
+	
