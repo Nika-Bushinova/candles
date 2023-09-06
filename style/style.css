@@ -169,10 +169,6 @@ body {
   font-weight: 800;
 }
 
-.header__burger, .header__empty {
-  display: none;
-}
-
 .header__logo, .footer__logo {
   position: relative;
   margin-left: 10.9%;
@@ -343,14 +339,6 @@ h1:hover, .preview__common h1 + p:hover {
   height: 300px;
   bottom: -20px;
   left: -20px;
-}
-
-.main__image_forth {
-  background: url("../img/second.jpeg") 0/300px 300px;
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  margin-top: 60px;
 }
 
 /*----------------------------------------------section 2 ----------------------------------------------*/
@@ -1098,7 +1086,7 @@ h1 {
 
 .main__image_first {
   margin-left: 40%;
-  background: url("../img/light.jpg") 0px/400px 350px no-repeat;
+  background: url("../img/candles/light.jpg") 0px/400px 350px no-repeat;
   border-radius: 60% 0% 0% 0%;
   width: 300px;
   height: 250px;
@@ -1120,7 +1108,7 @@ h1 {
 }
 
 .main__image {
-  background: url("../img/candle.jpg") 0px/400px 350px no-repeat;
+  background: url("../img/candles/candle.jpg") 0px/400px 350px no-repeat;
   width: 350px;
   height: 300px;
   border-radius: 0% 0% 0% 70%;
@@ -1129,7 +1117,7 @@ h1 {
   position: relative;
 }
 .main__image_forth {
-  background: url("../img/second.jpeg") 0/300px 300px;
+  background: url("../img/candles/IMG_20221115_100114_017.jpg") 0/300px 300px;
   width: 300px;
   height: 300px;
   border-radius: 50%;
@@ -1739,10 +1727,6 @@ h4 {
   min-height: 500px;
   background-color: #FFFFFF;
   padding: 100px 0px;
-}
-
-.main__thank_you_h1 {
-  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
