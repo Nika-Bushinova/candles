@@ -370,17 +370,7 @@ flex-shrink: 1;
 .steps__icons div:nth-child(2){
    margin-left:5.8%
 }
-h2{
-   font-family: $font1;
-font-style: normal;
-font-weight: 500;
-font-size: 40px;
-line-height: 53px;
-margin-bottom:40px;
-color: $var3;
 
-transition: all 0.5s ease 0s;
-}
 
 h2:hover{
    color:$var3;
@@ -509,7 +499,7 @@ background: url(../img/arrow-left.svg) 0 0/90% no-repeat;
    display:flex;
    align-items: center;
    justify-content: center;
-   padding-bottom:90px
+   padding-bottom:30px
 }
 /* Активная точка */
 .slider .slick-dots li.slick-active{
@@ -1081,7 +1071,7 @@ h2 {
 	font-weight: 500;
 	font-size: 60px;
 	line-height: 53px;
-	margin-bottom: 40px;
+	margin-bottom: 80px;
 	color: $var4;
 	transition: all 0.5s ease 0s;
 	text-shadow: 0px 4px 3px $var3;
@@ -1120,9 +1110,7 @@ h2 {
 .diffusors{
 	padding: 90px 10% 90px 10%;
 }
-.diffusor{
-	margin-bottom: 10px;
-}
+
 
 .diffusor__img{
 	min-width: 300px;
@@ -1168,7 +1156,7 @@ background: url(../img/bg2.jpg) 0px -40px/cover no-repeat;;
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		padding-bottom: 90px;
+		padding-bottom: 30px;
 		li {
 			&.slick-active {
 				background-color: $var3;
@@ -1605,4 +1593,8 @@ color:$var4;
 	min-height: 500px;
 	background-color: $var5;
 padding:100px 0px
+}
+h2+p{
+	margin-top:-30px;
+	margin-bottom:15px
 }
