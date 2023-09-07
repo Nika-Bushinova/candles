@@ -362,17 +362,6 @@ h1:hover, .preview__common h1 + p:hover {
   margin-left: 5.8%;
 }
 
-h2 {
-  font-family: "Marck script";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 53px;
-  margin-bottom: 40px;
-  color: #FFC0CB;
-  transition: all 0.5s ease 0s;
-}
-
 h2:hover {
   color: #FFC0CB;
   text-shadow: 0px 4px 3px #DB7093;
@@ -505,7 +494,7 @@ h2:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 90px;
+  padding-bottom: 30px;
 }
 
 /* Активная точка */
@@ -1149,7 +1138,7 @@ h2 {
   font-weight: 500;
   font-size: 60px;
   line-height: 53px;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
   color: #DB7093;
   transition: all 0.5s ease 0s;
   text-shadow: 0px 4px 3px #FFC0CB;
@@ -1190,10 +1179,6 @@ h2:hover {
 
 .diffusors {
   padding: 90px 10% 90px 10%;
-}
-
-.diffusor {
-  margin-bottom: 10px;
 }
 
 .diffusor__img {
@@ -1242,7 +1227,7 @@ h2:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 90px;
+  padding-bottom: 30px;
 }
 .slider .slick-dots li.slick-active {
   background-color: #FFC0CB;
@@ -1727,6 +1712,11 @@ h4 {
   min-height: 500px;
   background-color: #FFFFFF;
   padding: 100px 0px;
+}
+
+h2 + p {
+  margin-top: -30px;
+  margin-bottom: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */
