@@ -32,16 +32,13 @@
     min-height: 200px;
   }
   .textarea__ask{
-    width:80%;
+    width:100%;
     
   }
 }
 /*-------------------------------------------------------------------------------------------------1250----------------------------------------*/
 @media (max-width: 1250px) {
-  .button__all {
-    background-size: 20px;
-    background-position: 12px 50%;
-  }
+
   .header__logo::before{
     left:40px;
     width:20px;
@@ -49,55 +46,14 @@
     background: url(../img/butter.png)no-repeat 0 0/ 20px 20px;
     top:-10px
   }
-  .menu {
-    padding-left: 15px;
-  }
-  .stories__first div, .stories__second div{
 
-    overflow: hidden;
-    position: relative;
-  }
-  .stories__first img, .stories__second img,.img__square-circle-border-down{
-
-max-width:100%;
-height:100%;
-object-fit: cover;
-
-  }
-  .img__circle{
-    width:350px
-  }
-  .img__square-circle-border{
-    height:0px
-  }
-  .stories__first div:nth-of-type(2), .stories__second div:nth-of-type(2){
-    margin:0 10px
-  }
-  .img__square-circle-border-down,.img__square-circle-border-top,.img__square-circle-border{
-    display: none;
-  }
-  h2{
-    margin-bottom:15px
-  }
-  .img__square-circle{
-    width:300px
-  }
-  .delivery{
-    display:block;
-
-      font-family: 'Inter';
-      font-size: 12px;
-  
- }
  .footer__logo span+ p{
   display:none
  }
  .footer__logo{
   max-width:60%
  }
- .footer__text{
-  display:none
- }
+
  .footer__logo::before{
   left:45%;}
 }
@@ -110,7 +66,7 @@ object-fit: cover;
     padding: 30px 0px 25px 0px;
   }
   .header__container {
-    font-size: 14px;
+    font-size: 20px;
   }
   .header__button {
     margin-right: 5%;
@@ -139,8 +95,11 @@ object-fit: cover;
  h1 {
     font-size: 40px;
   }
-  .preview__common h1 + p {
-    font-size: 16px;
+  h2{
+    font-size: 40px;
+  }
+  .preview__common h1 + p, .subscribe__text, h2+p {
+    font-size: 20px;
   }
   /*-----------------------------------------------------------*/
   .stories__image {
@@ -164,7 +123,7 @@ object-fit: cover;
     margin-top:5px
   }
   .info__text,.destinations__text{
-    font-size:14px
+    font-size:20px
   }
 }
 
@@ -176,7 +135,7 @@ object-fit: cover;
   }
 
   .header__container {
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 500;
   }
   
@@ -186,7 +145,7 @@ object-fit: cover;
   }
   .button__all {
 
-   font-size: 12px;
+   font-size: 18px;
 
    padding: 10px 10px;
 
@@ -203,6 +162,7 @@ object-fit: cover;
    line-height: 66px;
  }
 
+
 /*------------------------*/
 .main__img_second div,
 .main__image_first div,
@@ -216,19 +176,19 @@ object-fit: cover;
    margin: 30px 30px 0px 0px;
 }
 .preview__second{
-   margin-top:-80px
+   margin-top:90px
 }
 .preview__container{
-   padding:150px 10% 120px 10%
+   padding:150px 10% 150px 10%
 }
 .preview__common h1 + p{
-   font-size: 12px;
+   font-size: 18px;
 }
 .subscribe__text{
-  font-size:12px
+  font-size:18px
 }
 .slider__text, .slider__text span{
-  font-size: 16px;
+  font-size: 18px;
 }
 /*----------------------------------*/
 ._active-pop{
@@ -260,19 +220,26 @@ h4{
 .stories__first ul, .stories__second ul, .stories__first li, .stories__second li{
   font-size:14px
 }
-.footer__contacts p, .footer__my-contacts, .footer__my-contacts a, .footer__icons li{
-  font-size:12px
+.footer__text ul li{
+  list-style-type: none;
 }
 .footer__icons li img{
   width:30px;
   height:30px
+}
+.footer__contacts{
+  flex-direction: column;
+text-align: center;
+}
+ .footer__contacts .footer__logo{
+margin:0% 0% 0% 18%
 }
 }
 /*---------------------------------------------
 
 /*-------------------------------------------------560--------------------------------------------*/
 @media (max-width: 560px) {
-   
+
    .header__logo {
       line-height: 20px;
       margin-left: 5%;
@@ -438,7 +405,7 @@ h4{
      margin: 30px 30px 0px 0px;
   }
   .preview__second{
-     margin-top:-100px
+     margin-top:-20px
   }
   .preview__second{
     left:35%
@@ -448,14 +415,16 @@ h4{
   font-size:12px
 }
 h2{
-  font-size:30px
+  font-size:30px;
+  line-height: 30px;
+  margin-bottom: 30px;
 }
 .subscribe__email{
   padding:0px 10%;
   line-height: 15px
 }
 .subscribe__email h2 {
-  margin-bottom: 0px;
+  margin-bottom: 20px;
   line-height: 45px
 }
 /*--------------------------*/
@@ -463,6 +432,7 @@ h2{
   padding:20px;
   font-size:12px;
   text-align: center;
+  margin-top:0px
 }
 .info__img {
  display: none;
@@ -478,14 +448,14 @@ h2{
 }
 
 .slider__text, .slider__text span{
-  font-size:12px
+  font-size:14px
 }
 .stories__first p, .stories__second p, .slider__text p {
-  font-size: 14px;
+  font-size: 18px;
 
 }
 .stories__first ul, .stories__second ul, .stories__first li, .stories__second li{
-  font-size:12px
+  font-size:16px
 }
 .destinations__container{
   padding:20px 10% 60px 10%
@@ -504,51 +474,15 @@ h2{
     padding-bottom:130px !important
   }
 
-/*---------------------------------------*/
-.footer_container{
-  padding-top:20px
-}
 
-.footer__contacts{
-  flex-direction: column;
-  padding: 0px;
-}
-.header__logo, .footer__logo,.logo{
-  font-size:16px;
-  max-width: 100%;
-}
-.footer__logo::before{
-  margin-left:-30px;
-  left:48%;
-    width:100px;
-    height:100px;
-    background:  url('../img/logo2.png')no-repeat 0 0/ 100px 100px ;
-
-top:-30px
-  
-}
-.footer__logo p, .footer__my-contacts, .footer__my-contacts a {
-	font-family: 'Inter';
-	font-size: 16px;
-	Line-height: 21px;
-	padding-top: 80px;
-	position: relative;
-}
-
-footer ul{
-  display: flex;
-  flex-direction: row;
-}
-.delivery span:first-of-type{
-  font-weight: bold;
-}
-footer a:first-of-type {
-  padding-left: 30%;
-}
 .main__thank_you{
 	min-height: 300px;
 
 padding:50px 0px
+}
+h2+p{
+  margin-top:-20px;
+  font-size: 12px;
 }
 }
 /* /*----------------------------------------------------390------------------------------------------*/
@@ -602,23 +536,29 @@ padding:50px 0px
     margin-right:20px
   }
   .preview__second {
-    margin-top: -70px;
+    margin-top: -20px;
     left:35%
 }
 .preview__common h1 + p {
-  font-size: 12px;
+  font-size: 14px;
+  line-height: 15px;
 }
 
 .stories__first p, .stories__second p {
-  font-size: 12px;
+  font-size: 14px;
 }
 .stories__first ul, .stories__second ul, .stories__first li, .stories__second li{
   font-size:10px
 }
-
+.destinations__container{
+  padding:20px 10% 0px 10%
+}
+.destinations__container:last-of-type{
+  padding:20px 10% 60px 10%
+}
 .info__text{
-  font-size:12px;
-  padding: 20px 0px 20px 0px
+  font-size:14px;
+  padding: 20px 5px 20px 5px
 }
 
 .footer_container{
@@ -626,15 +566,19 @@ padding:50px 0px
 }
 .delivery{
   font-family: 'Inter';
-  font-size: 12px;
+  font-size: 14px;
 }
 .footer__logo div:first-child{
   padding-top:20px
 }
 .footer__logo::before {
   top:0px;
-  margin-top:10px;
+  margin-top:-30px;
   margin-left:-40px
+}
+h2+p{
+  margin-top:-20px;
+  font-size: 12px;
 }
 }
 
@@ -643,7 +587,7 @@ padding:50px 0px
 @media (max-width: 340px) {
 
   .preview__second {
-    margin-top: -70px;
+    margin-top: -20px;
     left:20%
 }
  h1{
