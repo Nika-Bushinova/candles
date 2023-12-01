@@ -680,10 +680,6 @@ h2:hover {
   padding: 20px 10%;
 }
 
-.subscribe__email h2 {
-  margin-bottom: 20px;
-}
-
 .textarea__ask {
   background-color: #ECEAEB;
   border-bottom: 1px solid #FFC0CB;
@@ -1411,7 +1407,7 @@ h2:hover {
 
 .stories__container, .subscribe__email {
   background-color: #FFFFFF;
-  padding: 0px 10% 90px;
+  padding: 90px 10% 10px;
 }
 
 .stories__first {
@@ -1470,7 +1466,7 @@ h2:hover {
   text-align: center;
 }
 .subscribe__email h2 {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .subscribe__email {
@@ -1604,6 +1600,18 @@ footer a:first-of-type {
 .footer__contacts img:hover, .footer__my-contacts a:hover::before {
   transition: all 0.5s ease 0s;
   transform: scale(1.1);
+}
+
+.sign {
+  font-size: 18px;
+  color: #DB7093;
+  padding: 10px !important;
+  flex-direction: column;
+  text-align: center;
+}
+
+.sign p {
+  padding: 5px;
 }
 
 /*-------------------------------------------pop-up------------*/

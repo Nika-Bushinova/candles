@@ -666,9 +666,7 @@ right:20px
 
    padding:20px 10%
 }
-.subscribe__email h2{
-   margin-bottom:20px;
-}
+
 .textarea__ask{
    background-color: #ECEAEB;
    border-bottom:1px solid #FFC0CB;
@@ -1331,7 +1329,7 @@ background: url(../img/bg2.jpg) 0px -40px/cover no-repeat;;
 }
 .stories__container, .subscribe__email {
 	background-color: $var5;
-	padding: 0px 10% 90px;
+	padding: 90px 10% 10px;
 }
 .stories__first {
 	display: flex;
@@ -1382,7 +1380,7 @@ background: url(../img/bg2.jpg) 0px -40px/cover no-repeat;;
 	background-color: $var7;
 	text-align: center;
 	h2 {
-		margin-bottom: 20px;
+		margin-bottom: 40px;
 	}
 }
 .subscribe__email {
@@ -1500,6 +1498,16 @@ footer {
 .footer__contacts img:hover, .footer__my-contacts a:hover::before {
 	transition: all 0.5s ease 0s;
 	transform: scale(1.1);
+}
+.sign{
+	font-size: 18px;
+	color: #DB7093;
+	padding:10px !important;
+	flex-direction: column;
+	text-align: center;
+}
+.sign p{
+	padding:5px
 }
 /*-------------------------------------------pop-up------------*/
 .pop-up {
